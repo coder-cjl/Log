@@ -20,6 +20,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "Log", path: "Log/**"),
+        .target(name: "Log", path: "Log"),
     ],
 )
