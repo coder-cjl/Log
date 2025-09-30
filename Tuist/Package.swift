@@ -14,12 +14,5 @@ import PackageDescription
 
 let package = Package(
     name: "Log",
-    platforms: [.iOS(.v13)],
-    products: [
-        .library(name: "Log", targets: ["Log"])
-    ],
-    dependencies: [],
-    targets: [
-        .target(name: "Log", path: "Log/**"),
-    ],
+    dependencies: []
 )
