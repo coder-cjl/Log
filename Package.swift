@@ -14,7 +14,7 @@ import PackageDescription
 
 let package = Package(
     name: "Log",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v16)],
     products: [
         .library(name: "Log", targets: ["Log"])
     ],
